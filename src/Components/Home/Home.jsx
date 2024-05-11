@@ -1,3 +1,4 @@
+import Grandpa from "../Grandpa/Grandpa";
 import Navbar from "../Navbar/Navbar";
 import ReusableForm from "../ReusableForm/ReusableForm";
 import SimpleForm from "../SimpleForm/SimpleForm";
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <div>
       <Navbar></Navbar>
+      <Grandpa></Grandpa>
       <ReusableForm
         formTitle={"Sign Up"}
         handleSubmit={handleSignUpSubmit}
