@@ -17,8 +17,8 @@ const ReusableForm = ({ handleSubmit, submitBtnText = "Submit", children }) => {
 
   return (
     <div>
-      <div className="my-40">
-        {children}
+      <div className="mb-10 mt-16">
+        <h2 className='text-xl'>{children}</h2>
         <form onSubmit={handleLocalSubmit} className="m-5 p-5">
           <input
             type="text"

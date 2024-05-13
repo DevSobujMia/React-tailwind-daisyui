@@ -22,9 +22,8 @@
 .grandpa {
   border: 2px solid tomato;
   margin: 10px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 15px;
-  font-size: 20px;
 }
 
 @keyframes logo-spin {
